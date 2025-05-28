@@ -97,6 +97,10 @@ nav a {
   color: #6b4eff;
   text-decoration: underline;
 }
+.hero-image img {
+  width: 400px;
+  border-radius: 20px;
+}
 
 
 
