@@ -55,6 +55,12 @@ nav a {
   justify-content: space-between;
   padding: 60px 0;
 }
+.content{
+    display: flex;
+   margin: 30x 100px;
+     align-items: center;
+  justify-content: space-between;
+}
 .hero-text {
   max-width: 50%;
 }
@@ -101,6 +107,7 @@ nav a {
   width: 400px;
   border-radius: 20px;
 }
+
 
 
 
