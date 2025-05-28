@@ -39,5 +39,14 @@ nav a {
   color: #333;
   font-weight: 500;
 }
+.products-btn {
+  background-color: transparent;
+  color: #6b4eff;
+  border: 2px solid #6b4eff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
 
 
