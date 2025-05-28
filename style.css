@@ -19,6 +19,7 @@ nav .nav-links {
 .nav-links a {
   text-decoration: none;
   padding: 8px;
+  transition: 0.15s ease;
 }
 .nav-links a:hover {
   background-color: black;
