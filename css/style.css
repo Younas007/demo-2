@@ -16,7 +16,6 @@
   height: 100vh;
 }
 .main2 > * {
-  background-color: blue;
 }
 
 .left-img,
@@ -46,11 +45,19 @@
   font-weight: bold;
 }
 .right-span {
-  background-color: rgba(128, 128, 128, 0.686);
+  background-color: rgba(128, 128, 128, 0.341);
 }
 .right-text p {
   color: gray;
+  word-spacing: 2px;
+  font-size: 1.2rem;
 }
 .btn-right {
   margin-top: 2rem;
+}
+.btn-right a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 10px 4%;
 }
