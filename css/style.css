@@ -7,7 +7,7 @@
 
 .main2 {
   display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 400px));
+  grid-template-columns: repeat(2, minmax(40px, 30%));
   grid-template-rows: repeat(2, 290px);
   column-gap: 40px;
   row-gap: 40px;
@@ -33,4 +33,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.right-text {
+  padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+.right-text h2 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.right-span {
+  background-color: rgba(128, 128, 128, 0.686);
+}
+.right-text p {
+  color: gray;
+}
+.btn-right {
+  margin-top: 2rem;
 }
