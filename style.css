@@ -144,12 +144,28 @@ footer {
 .footer-pack input {
   height: 30px;
   border-radius: 10px;
+  background-color: rgba(44, 40, 40, 0.734);
+  border: #ffffff solid 1px;
+  padding-left: 5px;
+  color: white;
+}
+.footer-pack input::placeholder {
+  color: white;
+  text-align: left;
+}
+.footer-second div {
   position: relative;
 }
-.footer-pack input::after {
-  content: "a";
+.footer-second div::after {
+  content: "→";
   position: absolute;
   height: 25px;
-  width: 5px;
-  background-color: green;
+  background-color: white;
+  border-radius: 50%;
+  top: 3px;
+  right: 5px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
