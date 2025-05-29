@@ -4,9 +4,6 @@
   box-sizing: border-box;
   font-family: poppins, Arial, Helvetica, sans-serif;
 }
-body {
-  border: solid;
-}
 .third-page {
   min-height: 80vh;
   display: flex;
@@ -71,39 +68,44 @@ h1 {
 .copyrights {
   text-align: center;
   color: #ffffff;
+  height: 20%;
+  margin-top: px;
 }
-footer {
-  margin-bottom: aut;
+.footer-pack{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.footer-first {
+.footer-pack .footer-first {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  border: solid;
+  width: 100%;
   align-items: baseline;
+
 }
-.footer-first a {
+.footer-pack .footer-first a {
   text-decoration: none;
   color: white;
   font-size: 12px;
 }
-.footer-first li {
+.footer-pack .footer-first li {
   list-style: none;
   display: inline;
 }
-.footer-second {
+.footer-pack .footer-second {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
-  border: solid;
   align-items: baseline;
 }
-.footer-second a {
+.footer-pack .footer-second a {
   text-decoration: none;
   color: white;
   font-size: 12px;
 }
-.footer-second li {
+.footer-pack .footer-second li {
   list-style: none;
   display: inline;
 }
@@ -112,11 +114,12 @@ footer {
   height: 20vh;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content:space-between;
   flex-direction: column;
 .footer-logo {
   color: white;
 }
-.footer-second-logo {
+.footer-pack .footer-second-logo {
   font-size: 12px;
+  color: #ffffff;
 }
