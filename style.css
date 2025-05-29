@@ -8,7 +8,7 @@ body {
   border: solid;
 }
 .third-page {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -80,38 +80,40 @@ footer {
   justify-content: space-between;
   width: 80%;
   border: solid;
-  margin: 0 auto;
   align-items: baseline;
 }
 .footer-first a {
   text-decoration: none;
-  margin-left: 145px;
   color: white;
   font-size: 12px;
 }
 .footer-first li {
   list-style: none;
+  display: inline;
 }
 .footer-second {
   display: flex;
   width: 80%;
   justify-content: space-between;
   border: solid;
-  margin: 0 auto;
   align-items: baseline;
 }
 .footer-second a {
   text-decoration: none;
-  margin-left: 145px;
   color: white;
   font-size: 12px;
 }
 .footer-second li {
   list-style: none;
+  display: inline;
 }
 footer {
   background-color: rgba(0, 0, 0, 0.783);
-}
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
 .footer-logo {
   color: white;
 }
