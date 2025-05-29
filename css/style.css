@@ -61,3 +61,32 @@
   background-color: gray;
   padding: 10px 4%;
 }
+
+.left-text {
+  padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+.left-text h2 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.left-span {
+  background-color: rgba(128, 128, 128, 0.341);
+}
+.left-text p {
+  color: gray;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+}
+.btn-left {
+  margin-top: 2rem;
+}
+.btn-left a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 10px 4%;
+}
