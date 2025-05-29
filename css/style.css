@@ -19,8 +19,6 @@
     "c d";
   line-height: 30px;
 }
-.main2 > * {
-}
 
 .left-img,
 .right-img {
@@ -74,8 +72,10 @@
   padding: 10px 4%;
   transition: all 0.15s;
 }
-a:hover {
-  background-color: rgb(62, 62, 138);
+.btn-right a:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px;
 }
 .left-text {
   padding: 10px 10%;
@@ -107,7 +107,7 @@ a:hover {
   padding: 10px 4%;
   transition: all 0.15s;
 }
-a:hover {
+.btn-left a:hover {
   background-color: white;
   color: black;
   border: solid 1px;
