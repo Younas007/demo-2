@@ -131,6 +131,8 @@ footer {
   background-color: white;
   padding: 8px;
   border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 .footer-pack .footer-second-logo {
   font-size: 12px;
@@ -158,7 +160,7 @@ footer {
   content: "→";
   position: absolute;
   height: 25px;
-  background-color: white;
+  background-color: #6b4eff;
   border-radius: 50%;
   top: 3px;
   right: 5px;
@@ -166,4 +168,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+.footer-img-logo {
+  width: 20px;
 }
