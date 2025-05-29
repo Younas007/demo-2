@@ -164,14 +164,23 @@ nav a {
   .hero-text, .hero-image {
     max-width: 100%;
   }
+  .hero-image{
+    position: relative;
+    right: 100px;
+    padding: 15px;
+  }
   .products {
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 250px;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 30px;
   }
   .product-card {
     max-width: 90%;
-    padding-bottom: 300px;
-
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 600px) {
@@ -199,7 +208,7 @@ nav a {
     width: 100%;
     padding-top: 20px;
     position: relative;
-    right: 380px;
+    right: 300px;
   }
   .hero-text h1 {
     font-size: 2rem;
@@ -210,11 +219,15 @@ nav a {
   }
   .second-part{
     position: relative;
-    top: 600px;
+    top: 400px;
   }
   .product-card{
     width: 100%;
     padding: 20px;
+  }
+  .products{
+    display: flex;
+    flex-direction: column;
   }
 }
 
