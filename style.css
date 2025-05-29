@@ -12,6 +12,7 @@
 }
 .header {
   text-align: center;
+  margin: 20px 0;
 }
 nav .nav-links1 {
   display: flex;
@@ -35,9 +36,6 @@ nav .nav-links1 {
 .nav-links1 .first-link {
   background-color: black;
   color: white;
-}
-h1 {
-  margin-bottom: 20px;
 }
 .ques {
   margin-left: 40px;
