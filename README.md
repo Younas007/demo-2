@@ -44,3 +44,12 @@ demo-2/
 ├── style.css
 ├── /images
 └── README.md
+
+💡 How to Use
+1. Clone the repository:
+git clone https://github.com/Younas007/demo-2.git
+2. Open index.html in your browser.
+
+
+📃 License
+This project is open source and free to use under the MIT License.
