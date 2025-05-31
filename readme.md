@@ -10,7 +10,7 @@ CSS3 (Grid, Flexbox, Media Queries)
 Responsive Design
 Google Fonts (Poppins)
 
-Folder-Structure
+Folder-Structure:>
 project-folder/
 │
 ├── css/
