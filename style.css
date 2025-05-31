@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: poppins, Arial, Helvetica, sans-serif;
 }
 .third-page {
@@ -197,3 +198,235 @@ footer {
     flex-direction: column;
   }
 }
+=======
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.2;
+  padding: 0 5%;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  background-color: #bcbaba;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.logo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+.icon {
+  background-color: #6b4eff;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.products-btn {
+  background-color: transparent;
+  color: #6b4eff;
+  border: 2px solid #6b4eff;
+  padding: 1px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero .content{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.highlight {
+  color: #6b4eff;
+}
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+.btn-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  background-color: #6b4eff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-secondary {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+.question-link {
+  font-size: 1rem;
+  color: #6b4eff;
+  text-decoration: underline;
+}
+.hero-image img {
+  width: 350px;
+  border-radius: 30px;
+  margin-left: 400px;
+}
+
+/* Product Cards */
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px 0;
+  gap: 15px;
+}
+.product-card {
+  background-color: #fff;
+  box-shadow: 0 40px 40px rgba(0,0,0,0.3);
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  width: 25%;
+  margin-top: 0.2%;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+.product-card h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.product-card p {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+.learn-btn {
+  text-decoration: none;
+  padding: 8px 18px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #333;
+}
+.first-page{
+  width: 100%;
+  height: 95vh;
+}
+.first-part{
+  height: 50vh;
+}
+.second-part{
+  height: 45vh;
+}
+@media (max-width: 1024px) {
+.hero .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text, .hero-image {
+    max-width: 100%;
+  }
+  .hero-image{
+    position: relative;
+    right: 100px;
+    padding: 15px;
+  }
+  .products {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .product-card {
+    max-width: 90%;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .hero-text{
+     padding-top: 200px;
+  }
+  .hero-text, .hero-image{
+    width: 100%;
+  }
+  .hero-image img{
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    right: 300px;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .btn-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-part{
+    position: relative;
+    top: 400px;
+  }
+  .product-card{
+    width: 100%;
+    padding: 20px;
+  }
+  .products{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+>>>>>>> b82fb4aa6b6fa0669fe87293d132a27e7ee70a13
