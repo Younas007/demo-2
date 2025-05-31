@@ -1,4 +1,4 @@
-# Demo-2 Website 🌐
+# E-Commerce Website 🌐
 
 A modern, responsive product showcase website built using HTML and CSS.
 
